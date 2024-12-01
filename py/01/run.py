@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 def get_lists():
-    list_file = Path(__file__).parent / "input/lists"
+    list_file = Path(__file__).parents[2] / "data/day-01"
     list_a = []
     list_b = []
     with open(list_file) as f:
